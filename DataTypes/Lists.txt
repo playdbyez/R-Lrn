@@ -1,0 +1,60 @@
+>>LISTS<<
+***organising data with Lists
+Lists can contain multiple data types and also vectors, 
+functions and other lists as more versitile way of storing data precisely as intended.
+
+
+::::::::::::::::::CODE LIST:::::::::::::::
+$ MyList <- list(1, "HELLO", TRUE)
+
+$ print(MyList)
+
+[[1]]
+[1] 1
+[2]]
+[1] "HELLO"
+[[3]]
+[1] TRUE
+
+:::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+//Each entry is separate with class as 'list' while
+an index provides access to a particular list member
+
+::::::::::::::CODE DERIVATE:::::::::::::::
+
+$ print(Mylist[1])
+[[1]]
+[1] 1
+
+$ print(Mylist[[1]])
+[1] 1
+
+:::::::::::::::::::::::::::::::::::::::::::
+
+
+
+//The inner data element of class 'numeric' or 'boolean' is accessed through an embeded index.
+
+
+::::::::::::::::::CODE VECTOR-LIST:::::::::::::::::
+
+$ MyVectorList <- list(c(1, 2, 3))
+
+$ print(MyVectorList)
+[[1]]
+[1] 1 2 3 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+//to print the second memeber of the vectors through an embeded index.
+
+::::::::::::::::::::CODE DERIVATE:::::::::::::::::
+
+$ print(MyVectorList[[1]] [2])
+[1] 2
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::
