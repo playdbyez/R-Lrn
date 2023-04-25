@@ -1,0 +1,14 @@
+>>Matrixes<<
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+**Matrix arguments:
+
+>data=Dafines data, normally as a vector, used to fill the data elements in the matrix
+>nrow=Specifies the number of rows to create.
+>ncol=Specifies the number of co Lumns to create.
+>byrow=Defines the arrangement of the vector ele Lments within the matrix by row.
+>dimnames=Daternines the names of rows and columns.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+//Provides a two-dimensional metod to express data of any sort but matrixes normally hold numeric data.
