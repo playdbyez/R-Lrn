@@ -1,0 +1,58 @@
+>>Vectors<<
+
+//A vector can contain the following basic data types:
+
+.logical
+.numeric
+.integer
+.complex
+.character
+
+**Vector Data Types in R Explained**
+
+
+>>Logical = Boolean
+(TRUE/FALSE)
+
+>>Numeric = Integer or Real
+(I: 12 / R: 4.5)
+
+>>Integer = whole number with an L
+(2L + 34L)
+
+Complex = real or imaginary value
+(3 + 2i)
+
+Character = String with single or double quote as delimiter
+('a', "hello", "TRUE" or '12.3')
+
+
+:::::::::::::::::::::::::::::::::::::::::::CODE::::::::::::::::::::::::::::::::::::::::::::::::::::
+$ MyVar <- charToRaw('HELLO!')
+$ print(MyVar)
+
+[1] 48 65 6c 6c 6f 21				//which means "HELLO!" in raw
+
+
+$ print(class(MyVar))
+[1] "raw"
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+//Storing a group of values creates a vector of the same type but if its of mixed types
+the print() function will convent to string in order to maintain the integrity of the R-object type.
+
+::::::::::::::::::::::::::::CODE::::::::::::::::::::::
+
+$ MyNumb <- c(1, 2, 3)
+[1] 1 2 3
+
+$ Class(MyNumb)
+[1]"numeric"
+ 
+$ MyVector <- c(1, "Hello", TRUE)
+Print(MyVector)
+[1]"1" "Hello" "TRUE"
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
