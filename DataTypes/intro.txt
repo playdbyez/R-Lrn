@@ -1,0 +1,13 @@
+#########################################################
+###################### R Basic Data Types ###############
+##########################################################
+
+//R stoes data in R-objects of automatically assigned types based on data.
+
+>Vector
+>lists
+>Raw
+>Matrices
+>Arrays
+>Factors
+>Data Frames
