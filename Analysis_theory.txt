@@ -1,0 +1,111 @@
+######################################################
+##################****Stats****#########################
+###################################################
+
+
+
+//Statistic Analysis
+
+$? Symbolic Reasoning
+$? Connectionist 
+$? Evolutionary variation
+$? Bayasian interference
+$? Analog learning
+
+
+
+//Analysis Tech
+*
+*
+*
+					$? Symbolic Reasoning $?
+					(Logic & Philosophy)
+
+Deduction dictates narrowing that:
+if a tree is  green,
+and green trees are alive,
+then tree is alive.
+( if A=1 and 1A=X then A=X )
+
+
+Induction dictates broadning that:
+if a tree is green,
+and the tree is alive
+then green tree is alive
+( if A=1 and A=X then 1A=X )
+
+ -Deduction = Engineering reasoning
+ +Induction = Scientific reasoning
+
+
+
+
+
+				$? Neural Connectionist $?
+				(Backwards Propagation of Errors)
+
+Using backpropagation to determine under which conditions, 
+errors from networks built to resamble human neurons are removed
+
+This is achieved by changing weights and biases of the network until the actual output matches the target output.
+
+Passing the solution to the next neuron in the line , 
+various neurons work in paralel by solving a small part of the problem until the group creates a final output solution.
+ 
+ @Weights = how much an input figures-In in the result.
+ @Biases = which features are selected.
+
+
+
+
+ 
+				$? Evolutionary variation $?
+				(Genetic Programming)
+
+Using a true structure like a fitness method to determine,
+the most viable solution by removing solutions that do not match the desired output.
+
+survival of the fittest the winner of each level gets clser to solving the problem by building upon the next of solutions. 
+
+
+@Recursion supported languages
+@chess systems
+@evolving algorithms
+
+
+
+
+
+
+				$? Bayesian inference $?
+				(Statistics)
+
+Seeks to determine the probability of a certain output based on subjective inputs.
+
+
+example inputs = cough,sore throat
+example outputs = 50%flu? ,15%cold? ,5%allergy? ,15%covid ,10%H1N1 ,5%more options? 
+
+
+
+ @Spam filers
+ @Probability filters
+ @Health checks
+
+
+
+
+
+				$? Analog learning $?
+ 				(Psychology)
+
+Uses kernel machines to recgnise patterns in data,
+by comparing the pattern of a known output to aset of inputs,
+with the goal to use similarity to determine if a solution worked before,then
+using it again for a similar set of circumstances should also work as output.
+ 
+ 
+ 	
+ @Recomender Systems
+ @People also looked at
+ @Related Products
