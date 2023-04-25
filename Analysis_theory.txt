@@ -109,3 +109,34 @@ using it again for a similar set of circumstances should also work as output.
  @Recomender Systems
  @People also looked at
  @Related Products
+ 
+ 
+ 
+ 
+ 
+ ######################################################
+##################****ML****#########################
+###################################################
+
+pkgs_
+>>Cloudera Oryx
+>>CUDA-Convnet
+>>Convnet JS
+>>e1071
+>>gbm
+>>Gensim
+>>gimnet
+>>random forest
+>>SciPy
+>>XGBoost
+
+
+
+//Big Data
+.Gographic Information Systems' Public Data
+.
+ 
+ 
+ 
+ 
+ 
