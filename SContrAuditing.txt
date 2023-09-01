@@ -1,0 +1,93 @@
+
+
+:::::::::::::::::::BASIC REQUIREMENTS:::::::::::::::::::
+
+
+Solidity Language
+Defi Basics
+Finance Basics
+
+
+
+:::::::::::::::::::::::::::::::::::::::::::::
+
+CTF like
+	1- Ethernaut (yt @D-Squared)
+	2- Capture the Ether
+	3- Damn Vulnerable Defi
+
+	
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+Solidity Tutorial by Patrick Collins
+
+Python - Brownie framework
+Javascript - Hardhat framework
+
+
+:::::::::::::::::::::::::::::::::::::::::
+
+teachyourselfcrypto.com
+
+Syllabus:
+<>Token Contracts
+-ERC20
+-ERC721
+
+
+<>Proxies
+-CTFs
+
+<>MasterChef Algorithm
+-yt Synthetix Stalking Rewards Contract Explained
+
+<>Compound
+
+
+<>UniswapV2
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Khan Academy Course
+(Finance)
+
+-Options
+-Swaps
+-Futures
+-MBSs
+-CDOs
+-other derivatives
+
+:::::::::::::::::::::::::::::::::::::
+
+
+> Practice Order Contests
+> Read Order Reports
+
+
+::::::::::::::::::::::::::::::::::::::::
+
+
+Secureum
+(yt @D-Squared)
+
+
+-Ethereum 101
+-Solidity 101
+-Security Pitfalls & Best Practices 101
+-Audit Techniques & Tools 101
+-Audit Findings
+
+
+::::::::::::::::::::::::::::::::
+
+
+Read previous Audit Reports from Code4rena
+Low Risk, Non-Critical Issues and Gas Optimizations
+
+
+1 - Submit QA and Gas Optimisation Reports
+
+
+
