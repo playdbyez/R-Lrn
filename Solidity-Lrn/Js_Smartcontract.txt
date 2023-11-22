@@ -78,4 +78,5 @@ $ truffle console
 
 
 
-#Ethereum for Dummies
+# Ethereum for Dummies
+# (FCA) Financial Conduct Authority certified forex agency
