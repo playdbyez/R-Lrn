@@ -1,0 +1,81 @@
+Download VSCode
+Download Ganache
+
+
+Download NodeJS
+$ node --version
+// Check Node version
+
+$ npm install -g truffle
+// Download Truffle through Node's Package Manager 
+
+
+$ mkdir Project
+$ cd Project
+$ truffle init
+$ truffle version
+// Setup Truffle's directory
+
+Start Ganache
+Navigate: Ganache > Settings
+Note: Hostname, Port, Network ID, Solidity Version
+
+Edit truffle
+$ cd Projec/truffle/
+$ nano truffle-config.js
+                        > 
+                          module.exports = {
+                            networks: {  
+                              development : {
+                                              host: "127.0.0.1"  // lo server
+                                              port: 7545,        // ganache port
+                                              network_id: "*"   // any ID
+                              }
+                            }
+                          };
+                      <
+
+
+$ cd contracts
+$ touch HelloWorld.sol
+$ nano HelloWorld.sol
+                      > 
+                          Pragma solidity ^0.4.24
+                            contract HelloWorld { string private HelloMessage = "Hello World";  
+                              function getHelloMessage() public view returns (string) {
+                                                          return HelloMessage;
+                              }
+                            }
+                      <
+
+
+$ cd migrations
+$ touch 2_contracts_migration.js
+                         > 
+                          var HelloWorld = artifacts.require("HelloWorld");
+                          module.exports = function (deployer){  
+                                            deployer.deploy(HelloWorld);
+                              };
+                      <
+[F5 key]
+Compiles in VSCode
+However an error can occur if VSCode's compiler doesn't match with truffle's solidity verion
+Solution: 
+        Find matching compiler version from  = github/ethereum/solc-bin/tree/gh-pages/bin
+        Copy it = v0.4.24+commit.e67f0147
+        Paste it on VSC > settings.json > settings User > Solidity configuration
+
+
+
+
+
+$ truffle deploy --reset
+//While Ganache is running, deploy your smartcontract
+
+$ truffle console
+> HelloWorld.deployed(). then (function(instance) {return instance});
+> HelloWorld.deployed ().then (function(instance) {return instance.getHelloWorld()})
+
+
+
+#Ethereum for Dummies
